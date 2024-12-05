@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Account - Profile</title>
+    <link rel="stylesheet" href="profile.css">
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <div id="profile-section">
+        <header>
+            <div class="container">
+                <h1>My Account</h1>
+                <nav>
+                    <ul>
+                        <li><a href="#profile">Profile</a></li>
+                        <li><a href="#settings">Settings</a></li>
+                        <li><a href="#orders">Orders</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <!-- Profile Section -->
+        <section id="profile">
+            <div class="container">
+                <h2>Your Profile</h2>
+                <div class="profile-details">
+                    <img src="img/profile.png" alt="User Profile Picture" class="profile-pic">
+                    <div class="profile-info">
+                        <p><strong>Name:</strong> <span id="username">John Doe</span></p>
+                        <p><strong>Email:</strong> <span id="useremail">john.doe@example.com</span></p>
+                        <p><strong>Phone:</strong> <span id="userphone">+1 (123) 456-7890</span></p>
+                        <button class="edit-btn" id="editProfileBtn">Edit Profile</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Settings Section -->
+        <section id="settings">
+            <div class="container">
+                <h2>Account Settings</h2>
+                <form id="settings-form">
+                    <label for="email">Change Email:</label>
+                    <input type="email" id="email" name="email" placeholder="New Email" required>
+
+                    <label for="password">Change Password:</label>
+                    <input type="password" id="password" name="password" placeholder="New Password" required>
+
+                    <button type="submit" class="save-btn">Save Changes</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Orders Section -->
+        <section id="orders">
+            <div class="container">
+                <h2>Your Orders</h2>
+                <div class="order-list">
+                    <div class="order-item">
+                        <p>Order #12345 - <span>Delivered</span></p>
+                        <button class="view-btn">View Order</button>
+                    </div>
+                    <div class="order-item">
+                        <p>Order #12346 - <span>Pending</span></p>
+                        <button class="view-btn">View Order</button>
+                    </div>
+                    <!-- More orders can be added here -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <div class="copyright">
+                <p>Copyright <i class="fa-solid fa-copyright"></i> by R E S T O Z A.com</p>
+
+            </div>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
