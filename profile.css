@@ -1,176 +1,170 @@
 /* General Styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: Arial, sans-serif;
-  }
-  
-  body {
-    background-color: #f4f7fc;
-    color: #333;
-  }
-  
-  /* Header */
-  header {
-    background-color: #2c3e50;
-    padding: 20px 0;
-  }
-  
-  header .container {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  header h1 {
-    color: white;
-  }
-  
-  nav ul {
-    list-style: none;
-    display: flex;
-  }
-  
-  nav ul li {
-    margin: 0 15px;
-  }
-  
-  nav ul li a {
-    text-decoration: none;
-    color: white;
-    font-size: 18px;
-    text-transform: uppercase;
-  }
-  
-  nav ul li a:hover {
-    color: #e74c3c;
-  }
-  
-  /* Profile Section */
-  #profile {
-    padding: 40px 0;
-    background-color: white;
-  }
-  
-  .profile-details {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .profile-pic {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    margin-right: 20px;
-  }
-  
-  .profile-info p {
-    margin: 10px 0;
-  }
-  
-  .profile-info span {
-    font-weight: bold;
-  }
-  
-  .edit-btn {
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .edit-btn:hover {
-    background-color: #2980b9;
-  }
-  
-  /* Settings Section */
-  #settings {
-    padding: 40px 20px;
-    background-color: #ecf0f1;
-  }
-  
-  form {
-    max-width: 600px;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form label {
-    margin-bottom: 10px;
-    font-size: 16px;
-  }
-  
-  form input {
-    padding: 10px;
-    margin-bottom: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  .save-btn {
-    padding: 10px 20px;
-    background-color: #2c3e50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .save-btn:hover {
-    background-color: #34495e;
-  }
-  
-  /* Orders Section */
-  #orders {
-    padding: 40px 20px;
-  }
-  
-  .order-list {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  .order-item {
-    background-color: #fff;
-    padding: 15px;
-    margin: 10px 0;
-    border-radius: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  
-  .order-item span {
-    font-weight: bold;
-  }
-  
-  .view-btn {
-    padding: 5px 10px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-  }
-  
-  .view-btn:hover {
-    background-color: #2980b9;
-  }
-  
-  /* Footer */
-  footer {
-    background-color: #2c3e50;
-    color: white;
-    text-align: center;
-    padding: 20px 0;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
 
-  
+body {
+  background: url('img/background-img.jpg') no-repeat;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  font-family: 'poppins', sans-serif;
+}
+
+#profile-section {
+  background-color: black;
+  opacity: 0.79;
+  height: 105vh;
+  width: 100%;
+}
+
+.box {
+  height: 90px;
+  width: 30%;
+  margin: auto;
+  padding: 90px 0;
+}
+
+.profile_box {
+  display: block;
+  border: 2px solid white;
+}
+
+/* Header */
+header {
+  background-color: #0c2239;
+  padding: 20px 0;
+}
+
+header .container {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header h1 {
+  color: white;
+  font-size: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin: 0 15px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+}
+
+nav ul li a:hover {
+  color: #e74c3c;
+}
+
+/* Profile Section */
+#profile {
+  padding: 40px 0;
+  background-color: black;
+  padding: 10px;
+}
+
+.profile-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+.profile-info p {
+  margin: 10px 0;
+  font-size: 14px;
+  font-weight: 100;
+}
+
+.profile-info span {
+  font-weight: bold;
+}
+
+.edit-btn {
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 2px solid rgb(13, 13, 229);
+}
+
+.edit-btn:hover {
+  background-color: #055822;
+  border: 2px solid yellow;
+}
+
+/* Settings Section */
+#settings {
+  padding: 40px 20px;
+  background-color: rgba(248, 248, 241, 0.408);
+}
+
+#settings h2 {
+  font-size: 20px;
+  font-weight: 900;
+  margin-top: -29px;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+form input {
+  height: 35px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.save-btn {
+  padding: 10px 20px;
+  background-color: #2c3e50;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid #0b0f14;
+}
+
+.save-btn:hover {
+  background-color: #055822;
+  border: 2px solid yellow;
+}

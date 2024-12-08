@@ -6,7 +6,7 @@
 body {
     background: url('img/background-img3.jpg') no-repeat;
     width: 100%;
-    height: 510vh;
+    height: 511vh;
     background-size: cover;
     background-position: center;
     color: white;
@@ -20,7 +20,7 @@ nav {
 
 #about {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     height: 75px;
     background-color: #09435b;
@@ -40,11 +40,10 @@ nav {
     color: white;
 }
 
-img {
+.logo img {
     height: 65px;
     width: 65px;
-    border-radius: 30px;
-    margin: 0 5px;
+    border-radius: 40px;
 }
 
 .nav-search {
@@ -568,8 +567,4 @@ border: 1px solid white;
     text-decoration: none;
     font-size: small;
 }
-
-
-
-
 
